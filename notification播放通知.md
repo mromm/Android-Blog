@@ -3,10 +3,12 @@
 
 #### notification是系统通知，我们可以使用系统默认的样式和图标显示，当然也可以通过自定义样式，默认样式使用比较简单，这里就使用自定义样式来讲解说明,直接上代码：  
 ```
- NotificationManager nm = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);//获取系统通知服务的管理类，要想开启通知，必须要要获取管理者
+//获取系统通知服务的管理类，要想开启通知，必须要要获取管理者
+ NotificationManager nm = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context);//获取通知的构造者，用来添加自定义样式
-        RemoteViews remoteViews = new RemoteViews(context.getPackageName(), R.layout.notifacation_player_view);//创建自定义样式，和普通的view创建方法不一样，注意!!!
+        //创建自定义样式，和普通的view创建方法不一样，注意!!!
+        RemoteViews remoteViews = new RemoteViews(context.getPackageName(), R.layout.notifacation_player_view);
 
         if (isPlay) {
             remoteViews.setImageViewResource(R.id.notify_play, R.drawable.btn_pause_selector);
