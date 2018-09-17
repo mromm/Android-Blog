@@ -63,8 +63,10 @@
         notification.flags |= flags;//设置通知的清理方式，自动取消、无法清理等
 
         nm.notify(100, notification);//发布通知
-        ```
-        上面一段是创建通知的过程，接下来还需要注册广播来处理通知中各种事件：
+        ```  
+        
+        上面一段是创建通知的过程，接下来还需要注册广播来处理通知中各种事件：  
+        
         ```
         //动态注册广播
          private void registerReciver() {
