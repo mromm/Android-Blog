@@ -64,11 +64,11 @@
 
         nm.notify(100, notification);//发布通知
  ```  
-        上面一段是创建通知的过程，接下来还需要注册广播来处理通知中各种事件：  
+ 上面一段是创建通知的过程，接下来还需要注册广播来处理通知中各种事件：  
         
   ```
-        //动态注册广播
-         private void registerReciver() {
+   //动态注册广播
+   private void registerReciver() {
         IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction(Constant.NOTIFY_NEXT);
         intentFilter.addAction(Constant.NOTIFY_PRE);
