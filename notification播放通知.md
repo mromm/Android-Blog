@@ -62,7 +62,7 @@
         notification.icon = R.mipmap.lanucher;
         notification.flags |= flags;//设置通知的清理方式，自动取消、无法清理等
 
-        nm.notify(100, notification);//发布通知
+        nm.notify(100, notification);//发布通知 100是通知id，可以随意指定一数字，用来取消的标识
  ```  
  上面一段是创建通知的过程，接下来还需要注册广播来处理通知中各种事件：  
         
