@@ -1,4 +1,4 @@
-### WebView是Android中常用组件，主要用来加载网页或HTML代码片段，而且现在市面上出现的非常流行Hbird开发，也是借助于WebView来实现。现在就来说说native和js之间是怎么通过WebView进行通讯的：  
+### WebView是Android中常用组件，主要用来加载网页或HTML代码片段，而且现在市面上出现的非常流行Hybrid开发，也是借助于WebView来实现。现在就来说说native和js之间是怎么通过WebView进行通讯的：  
 #### native调用js中的方法,主要有两种方式：
 1.直接使用webview.loadUrl("js地址")
 ```
