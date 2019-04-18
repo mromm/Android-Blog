@@ -5,5 +5,6 @@
    [xposedInstaller](https://github.com/sunshey/Android-Blog/blob/master/de.robv.android.xposed.installer_v33_36570c.apk)  
    [FDex2_1.1.apk](https://github.com/sunshey/Android-Blog/blob/master/FDex2_1.1.apk)  
    [JustTrustMe](https://github.com/sunshey/Android-Blog/blob/master/JustTrustMe.apk)  
- 2. 打开夜神模拟器，将以上apk安装，打开xposed，点击模块，勾选其他两个软件
+ 2. 打开夜神模拟器，将以上apk安装，打开xposed，点击模块，勾选其他两个软件  
+ ![xposed截图]()
  
