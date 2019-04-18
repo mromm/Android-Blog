@@ -9,4 +9,19 @@
  ![xposed截图](https://github.com/sunshey/Android-Blog/blob/master/QQ%E6%88%AA%E5%9B%BE20190418151521.png)
  3. 安装要破解的apk，打开FDEx2，选择要破解的apk，点击,
  ![FDEx2截图](https://github.com/sunshey/Android-Blog/blob/master/QQ%E6%88%AA%E5%9B%BE20190418151741.png)
+ 4. 点击需要破解的apk后，会弹出一个提示框，记住提示框的路径
+ ![提示框路径](https://github.com/sunshey/Android-Blog/blob/master/QQ%E6%88%AA%E5%9B%BE20190418152417.png)
+ 5. 重启夜神模拟器，再次打开要破解的apk
+ 6. 通过adb命令连接夜神模拟器，命令如下
+ ```
+ adb connect 127.0.0.1:62001
+ ```
+ 7. 连接完成后，通过adb命令检查夜神模拟器是否已连接，如连接，则通过一下命令拉取数据：
+ ```
+ adb devices(检查设备连接)
+ adb -s 127.0.0.1:62001 pull /data/data/xxxxx(这里是前面要记住的路径)
+ ```
+ 8. 通过jadx-gui查看dex文件，破解大功告成
+ 
+ 
  
