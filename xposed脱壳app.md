@@ -22,6 +22,6 @@
  adb -s 127.0.0.1:62001 pull /data/data/xxxxx(这里是前面要记住的路径)
  ```
  8. 通过jadx-gui查看dex文件，破解大功告成
- 
+ ![查看文件](https://github.com/sunshey/Android-Blog/blob/master/QQ%E6%88%AA%E5%9B%BE20190418153353.png)
  
  
