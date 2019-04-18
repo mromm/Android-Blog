@@ -6,5 +6,5 @@
    [FDex2_1.1.apk](https://github.com/sunshey/Android-Blog/blob/master/FDex2_1.1.apk)  
    [JustTrustMe](https://github.com/sunshey/Android-Blog/blob/master/JustTrustMe.apk)  
  2. 打开夜神模拟器，将以上apk安装，打开xposed，点击模块，勾选其他两个软件  
- ![xposed截图]()
+ ![xposed截图](https://github.com/sunshey/Android-Blog/blob/master/QQ%E6%88%AA%E5%9B%BE20190418151521.png)
  
