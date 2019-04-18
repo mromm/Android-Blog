@@ -21,6 +21,7 @@
  adb devices(检查设备连接)
  adb -s 127.0.0.1:62001 pull /data/data/xxxxx(这里是前面要记住的路径)
  ```
+ 8. 通过jadx-gui查看dex文件，破解大功告成
  
  
  
