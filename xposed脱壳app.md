@@ -3,5 +3,5 @@
     1. 首先准备必要的工具和软件  
        [夜视模拟器](https://www.yeshen.com/)
        [xposedInstaller]()
-       [FDex2_1.1.apk]()
+       [FDex2_1.1.apk](https://github.com/sunshey/Android-Blog/blob/master/FDex2_1.1.apk)
        [JustTrustMe]()
